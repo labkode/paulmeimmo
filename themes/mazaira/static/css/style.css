@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-body {
+html, body {
 	background-color: #f4f0ea;
 }
 
@@ -15,7 +15,7 @@ body {
 }
 
 .paulme {
-	font-size: 3em;
+	font-size: 4em;
 }
 
 .immo {
@@ -25,10 +25,6 @@ body {
 .clesbonheur {
 	font-size: 1.5em;
 	font-weight: bold;
-}
-
-.container {
-	font-size: 2em;
 }
 
 .italiana {
@@ -50,7 +46,7 @@ body {
 }
 
 .fix-footer {
-    position: absolute;
+   // position: absolute;
     width: 100%;
     bottom: 0;
     overflow:hidden;
