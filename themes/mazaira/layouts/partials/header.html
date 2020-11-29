@@ -1,0 +1,27 @@
+<section class="hero  has-background">
+	<div class="hero-body">
+		<div class="container has-text-centered logo-text">
+			<p class="paulme">
+				PAULME
+			</p>
+			<p class="immo">
+				IMMO
+			</p>
+		</div>
+	</div>
+	<div class="hero-foot">
+		<nav class="tabs is-boxed is-fullwidth">
+			<div class="container">
+				<ul>
+					{{ $currentPage := . }}
+					{{ range .Site.Menus.main }}
+					<li class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} is-active{{end}}">
+						<!--<a class="" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>-->
+						<a class="" href="/" title="{{ .Title }}">{{ .Name }}</a>
+					</li>
+					{{ end }}
+				</ul>
+			</div>
+		</nav>
+	</div>
+</section>

@@ -1,0 +1,35 @@
+baseURL = "https://paulme.immo/"
+languageCode = "en-us"
+title = "PAULME Immo - Agence immobilière du Pays de Gex"
+theme = "mazaira"
+
+[menu]
+  [[menu.main]]
+    identifier = "Achetert"
+    name = "Acheter"
+    url = "/acheter"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "Vendre"
+    name = "Vendre"
+    url = "/vendre"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "Estimer"
+    name = "Estimer"
+    url = "/estimation"
+    weight = 3
+  
+  [[menu.main]]
+    identifier = "Rechercher"
+    name = "Rechercher"
+    url = "/rechercher"
+    weight = 4
+  
+[[menu.main]]
+    identifier = "Nous contacter"
+    name = "Nous contacter"
+    url = "/contact"
+    weight = 5

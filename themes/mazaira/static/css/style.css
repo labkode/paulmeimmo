@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+	background-color: #f4f0ea;
+}
+
+.hero {
+	background-color: #f4f0ea;
+}
+
+.logo-text {
+  	font-family: 'Italiana', serif;
+}
+
+.paulme {
+	font-size: 3em;
+}
+
+.immo {
+	font-size: 1.5em;
+}
+
+.clesbonheur {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.container {
+	font-size: 2em;
+}
+
+.italiana {
+	  font-family: 'Italiana', serif;
+	  font-weight: bold;
+}
+
+.medium {
+	font-size: 1.3em;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+.fix-footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    overflow:hidden;
+}
+
+.footer {
+	background-color: #f4f0ea;
+}
